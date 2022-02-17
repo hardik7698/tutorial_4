@@ -18,7 +18,7 @@ function UserDetails(){
     });
     return  (<div><h1>User Details</h1>
             <div >
-            <Card style={{ width: '18rem' ,marginLeft:'42%',marginTop:'5%'}}>
+            <Card style={{ width: '18rem' ,marginLeft:'42%',marginTop:'5%',boxShadow:'10px 10px 10px 10px'}}>
             <Card.Img  src={user.picture} alt={user.firstName} />
             <Card.Body>
                 <Card.Text>
