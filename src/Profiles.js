@@ -41,14 +41,13 @@ function Profiles()
                 } 
         })
             .map((r) =>(
-                <div>
+                
                     <img key={r.id} 
                     src={r.picture} 
                     alt={r.firstName}
                     onClick={()=>handleClick(r.id)}
                     ></img>
-                    {/* <br> </br> */}
-                </div>
+          
             )
             
             )}
